@@ -9,14 +9,16 @@
     box-sizing: border-box;
 }
 
+body{
+    background: #046E8F;
+}
 header {
     width: 100%;
     min-width: 320px;
     height: 120vh;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-
+    /* background-image: linear-gradient(to top, #09203f 0%, #537895 100b%); */
 }
 
 header .logo{
@@ -82,4 +84,38 @@ header nav  {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+} 
+
+/*About me*/
+
+main {
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
 }
+
+.about {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 300px;
+    margin-top: 30px;
+    text-align: justify;
+    align-self: center;
+    color: white;
+}
+ h3 {
+    margin-bottom:30px ;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.about-container{
+    padding: 10px;
+    border: 2px solid #183446;
+    border-radius: 10px ;
+    background: #1834468c;
+}
+
